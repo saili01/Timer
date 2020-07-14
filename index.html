@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My little timer</title>
+    <link rel="stylesheet" href="Timer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+</head>
+<body>
+    <div class="timer">
+        <div class="controls">
+            <input id="duration" value="15"/>
+            <div>
+                <button id="start"><i class="fas fa-play"></i></button>
+                <button id="pause"><i class="far fa-pause-circle"></i></button>
+            </div>
+        </div>
+        <svg class="dial">
+            <circle r="190px" cx="200px" cy="200px" fill="transparent" stroke="green" stroke-width="15"
+             stroke-dashoffset="0" transform="rotate(-90,200,200)"></circle>
+        </svg>
+    </div>
+   
+    
+    
+    <script src="Timer.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
